@@ -177,7 +177,28 @@ img {
 .header-contact .link:focus {
   color: var(--accent);
 }
+.header-link:hover .header-svg,
+.header-link:focus .header-svg {
+  fill: var(--accent);
+}
 
+.header-link {
+  display: flex;
+  vertical-align: middle;
+}
+
+.header-svg {
+  fill: var(--second-text-cl);
+  margin-right: 10px;
+}
+.mail-svg {
+  height: 16px;
+  width: 12px;
+}
+.phone-svg {
+  height: 16px;
+  width: 10px;
+}
 .header-contact .mail-link {
   margin-right: 50px;
 }
@@ -394,10 +415,14 @@ img {
   background-color: var(--white);
   border-radius: 50%;
 }
+.social-icons-link:hover,
+.social-icons-link:focus {
+  background-color: var(--accent);
+}
 
 .social-icons-link:hover .social-icons-svg,
 .social-icons-link:focus .social-icons-svg {
-  fill: var(--accent);
+  fill: var(--white);
 }
 
 .social-icons-svg {
