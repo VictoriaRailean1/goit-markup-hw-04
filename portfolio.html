@@ -36,10 +36,16 @@
           </ul>
         </nav>
         <div class="header-contact">
-          <a href="mailto:info@devstudio.com" class="link mail-link"
+          <a href="mailto:info@devstudio.com" class="link header-link mail-link"
+            ><svg class="header-svg mail-svg">
+              <use href="./img/icons/sprite.svg#mail"></use></svg
             >info@devstudio.com</a
           >
-          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="link header-link"
+            ><svg class="header-svg phone-svg">
+              <use href="./img/icons/sprite.svg#phone"></use></svg
+            >+38 096 111 11 11</a
+          >
         </div>
       </div>
     </header>
@@ -218,37 +224,92 @@
     </main>
     <!--Подвал-->
     <footer id="contacts" class="page-footer">
-      <div class="container footer-container">
-        <a href="./index.html" lang="en" class="logo footer-logo"
-          >Web<span class="logo-footer">Studio</span></a
-        >
-        <address>
-          <ul class="list footer-address">
-            <li class="footer-item">
+      <div class="container footer">
+        <div class="footer-container">
+          <a href="./index.html" lang="en" class="logo footer-logo"
+            >Web<span class="logo-footer">Studio</span></a
+          >
+          <address>
+            <ul class="list footer-address">
+              <li class="footer-item">
+                <a
+                  href="https://goo.gl/maps/CxbSxKR86c5XLmLp6"
+                  target="_blank"
+                  rel="noopener noreferer"
+                  class="address-footer link link-footer"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-item">
+                <a
+                  href="mailto:info@example.com"
+                  class="contact-footer link link-footer"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a
+                  href="tel:+380991111111"
+                  class="contact-footer link link-footer"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <!--соц сети-->
+        <div class="foofer-social">
+          <p class="footer-social-text">присоединяйтесь</p>
+          <ul class="list footer-social-icons">
+            <li class="footer-icons-item">
               <a
-                href="https://goo.gl/maps/CxbSxKR86c5XLmLp6"
+                class="footer-icons-link"
+                href="httsp://instagram.com/"
                 target="_blank"
                 rel="noopener noreferer"
-                class="address-footer link link-footer"
-                >г. Киев, пр-т Леси Украинки, 26</a
+                aria-label="Instagram"
               >
+                <svg class="footer-icons-svg">
+                  <use href="./img/icons/sprite.svg#instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-item">
+            <li class="footer-icons-item">
               <a
-                href="mailto:info@example.com"
-                class="contact-footer link link-footer"
-                >info@example.com</a
-              >
+                class="footer-icons-link"
+                href="httsp://twitter.com/"
+                target="_blank"
+                rel="noopener noreferer"
+                aria-label="Twitter"
+                ><svg class="footer-icons-svg">
+                  <use href="./img/icons/sprite.svg#twitter"></use></svg
+              ></a>
             </li>
-            <li>
+            <li class="footer-icons-item">
               <a
-                href="tel:+380991111111"
-                class="contact-footer link link-footer"
-                >+38 099 111 11 11</a
-              >
+                class="footer-icons-link"
+                href="httsp://facebook.com/"
+                target="_blank"
+                rel="noopener noreferer"
+                aria-label="Facebook"
+                ><svg class="footer-icons-svg">
+                  <use href="./img/icons/sprite.svg#facebook"></use></svg
+              ></a>
+            </li>
+            <li class="footer-icons-item">
+              <a
+                class="footer-icons-link"
+                href="httsp://linkedin.com/"
+                target="_blank"
+                rel="noopener noreferer"
+                aria-label="Linkedin"
+                ><svg class="footer-icons-svg">
+                  <use href="./img/icons/sprite.svg#linkedin"></use></svg
+              ></a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
