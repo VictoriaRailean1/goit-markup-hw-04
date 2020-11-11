@@ -323,14 +323,14 @@ img {
   margin-bottom: 30px;
 }
 
-.principles-icons .principles-icons-svg:hover,
-.principles-icons .principles-icons-svg:focus {
-  fill: var(--accent);
-}
-
 .principles-icons:hover,
 .principles-icons:focus {
   border-color: var(--accent);
+}
+
+.principles-icons .principles-icons-svg:hover,
+.principles-icons .principles-icons-svg:focus {
+  fill: var(--accent);
 }
 
 .principles-icons-svg {
