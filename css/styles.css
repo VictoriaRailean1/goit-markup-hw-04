@@ -189,18 +189,14 @@ img {
 
 .header-svg {
   fill: var(--second-text-cl);
-  margin-right: 10px;
-}
-.mail-svg {
+  padding-right: 10px;
   height: 16px;
-  width: 12px;
+  width: 26.14px;
 }
-.phone-svg {
-  height: 16px;
-  width: 10px;
-}
-.header-contact .mail-link {
-  margin-right: 50px;
+
+.mail-link {
+  display: flex;
+  margin-right: 30px;
 }
 /*Site nav*/
 .site-nav .link {
@@ -312,7 +308,7 @@ img {
 }
 
 .principles-icons:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 0;
 }
 .principles-icons {
   display: flex;
@@ -327,8 +323,8 @@ img {
   margin-bottom: 30px;
 }
 
-.principles-icons:hover .principles-icons-svg,
-.principles-icons:focus .principles-icons-svg {
+.principles-icons .principles-icons-svg:hover,
+.principles-icons .principles-icons-svg:focus {
   fill: var(--accent);
 }
 
@@ -340,7 +336,6 @@ img {
 .principles-icons-svg {
   width: 70px;
   height: 70px;
-  fill: var(--primary-text-cl);
 }
 
 /*О нас*/
@@ -535,6 +530,8 @@ img {
 /*Карточки*/
 .work-card {
   text-decoration: none;
+  display: block;
+  border: currentColor;
 }
 .work-card:nth-child(3n) {
   margin-right: 0;
@@ -543,8 +540,8 @@ img {
   flex-basis: calc(100% / 3 - 30px);
   background-color: var(--white);
 }
-.cards-item:hover,
-.cards-item:focus {
+.work-card:hover,
+.work-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
